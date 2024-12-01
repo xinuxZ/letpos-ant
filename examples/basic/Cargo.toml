@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "ant-leptos-example-basic"
+version = "0.1.0"
+
+[dependencies]
+ant-leptos = {path = "../.."}
+leptos = {version = "0.7.0-rc3", features = ["csr", "nightly"]}
