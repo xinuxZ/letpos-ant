@@ -11,7 +11,7 @@ pub mod utils;
 // Re-export commonly used components
 pub use components::{
     config_provider::ConfigProvider,
-    locale::Locale,
+    locale::LocaleProvider,
     style::Style,
     theme::Theme, // 现在这个导入应该是正确的
     version::Version,
