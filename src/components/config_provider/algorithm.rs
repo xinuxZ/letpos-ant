@@ -1,4 +1,4 @@
-use super::theme::{ComponentToken, ThemeAlgorithm, ThemeToken};
+use super::theme::{ComponentToken, ThemeToken};
 use std::collections::HashMap;
 
 /// CSS variables generator

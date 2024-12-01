@@ -2,7 +2,7 @@ use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
 /// Theme token configuration
-#[derive(Clone, Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize, PartialEq)]
 pub struct ThemeToken {
     /// Primary color
     pub primary_color: String,
@@ -46,7 +46,7 @@ pub struct ThemeAlgorithmConfig {
 }
 
 /// Theme algorithm types
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq)]
 pub enum ThemeAlgorithm {
     /// Default theme
     Default,
@@ -57,7 +57,7 @@ pub enum ThemeAlgorithm {
 }
 
 /// Component token configuration
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct ComponentToken {
     /// Token values
     pub token: HashMap<String, String>,

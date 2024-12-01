@@ -11,7 +11,6 @@ pub use context::*;
 pub use hooks::*;
 pub use theme::*;
 
-use crate::components::theme::ThemeConfig;
 use leptos::prelude::*;
 use std::sync::Arc;
 use web_sys::Element;
@@ -57,6 +56,18 @@ pub struct Config {
     pub component_size: Option<ComponentSize>,
     /// Component disabled state
     pub component_disabled: bool,
+    // /// Empty content renderer
+    // pub render_empty: Option<RenderEmpty>,
+    // /// Input number keyboard behavior
+    // pub input_number_keyboard: bool,
+    // /// Dropdown match select width
+    // pub dropdown_match_select_width: bool,
+    // /// Wave effect config
+    // pub wave: WaveConfig,
+    // /// Virtual scrolling config
+    // pub virtual_scroll: VirtualScrollConfig,
+    // /// Form validation messages
+    // pub form_validate: FormValidateConfig,
 }
 
 /// Text direction options
