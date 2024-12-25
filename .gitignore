@@ -1,5 +1,5 @@
 /target
-example/basic/target
+/examples/basic/target
 Cargo.lock
 **/*.rs.bk
 .idea/
