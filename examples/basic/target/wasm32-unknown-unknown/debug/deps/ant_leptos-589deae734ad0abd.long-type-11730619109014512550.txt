@@ -1,1 +1,0 @@
-std::option::Option<(leptos::prelude::ReadSignal<{closure@/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/src/components/locale/hooks.rs:23:36: 23:44}>, WriteSignal<{closure@/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/src/components/locale/hooks.rs:23:36: 23:44}>)>
