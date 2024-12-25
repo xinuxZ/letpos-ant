@@ -14,12 +14,37 @@
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     user-select: none;
     touch-action: manipulation;
+    margin-right: 8px;
+}
+
+/* 亮色主题 */
+:root[theme-mode="light"] {
+    --ant-primary-color: #1890ff;
+    --ant-primary-hover: #40a9ff;
+    --ant-text-color: rgba(0, 0, 0, 0.85);
+    --ant-bg-color: #fff;
+    --ant-border-color: #d9d9d9;
+}
+
+/* 暗色主题 */
+:root[theme-mode="dark"] {
+    --ant-primary-color: #177ddc;
+    --ant-primary-hover: #165996;
+    --ant-text-color: rgba(255, 255, 255, 0.85);
+    --ant-bg-color: #141414;
+    --ant-border-color: #434343;
+}
+
+.ant-btn {
+    color: var(--ant-text-color);
+    background: var(--ant-bg-color);
+    border-color: var(--ant-border-color);
 }
 
 .ant-btn-primary {
     color: #fff;
-    background: #1890ff;
-    border-color: #1890ff;
+    background: var(--ant-primary-color);
+    border-color: var(--ant-primary-color);
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
 }
@@ -27,8 +52,8 @@
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
     color: #fff;
-    background: #40a9ff;
-    border-color: #40a9ff;
+    background: var(--ant-primary-hover);
+    border-color: var(--ant-primary-hover);
 }
 
 /* 布局样式 */
@@ -38,9 +63,13 @@
     margin: 0 auto;
 }
 
+.button-group {
+    margin: 16px 0;
+}
+
 h1,
 h2 {
-    color: rgba(0, 0, 0, 0.85);
+    color: var(--ant-text-color);
     font-weight: 500;
 }
 
@@ -63,6 +92,7 @@ body {
         'Noto Color Emoji';
     font-size: 14px;
     line-height: 1.5715;
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #fff;
+    color: var(--ant-text-color);
+    background-color: var(--ant-bg-color);
+    transition: all 0.3s;
 }
