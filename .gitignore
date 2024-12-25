@@ -1,8 +1,10 @@
 /target
 /examples/basic/target
+/examples/basic/dist
 Cargo.lock
 **/*.rs.bk
 .idea/
 .vscode/
 *.iml
 .DS_Store
+

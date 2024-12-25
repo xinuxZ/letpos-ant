@@ -1,17 +1,20 @@
-// use super::context::use_locale_config;
-use super::*;
+//! 本地化相关的 hooks
+
+use crate::components::locale::format_date;
+use crate::components::locale::format_number;
+use crate::components::locale::NumberFormatType;
 use crate::components::locale::{
     defaults::{get_en_us_texts, get_zh_cn_texts},
-    types::{Language, LocaleText},
+    types::{Language, LocaleContext, LocaleText},
 };
 use leptos::prelude::*;
 
-/// Hook to access locale configuration
+/// 获取本地化配置
 pub fn use_locale_config() -> Option<LocaleContext> {
     use_context::<LocaleContext>()
 }
 
-/// Hook to get current language
+/// 获取当前语言
 pub fn use_language() -> Option<ReadSignal<Language>> {
     use_locale_config().map(|ctx| {
         let (read, _) = create_signal(ctx.get().language);
@@ -19,7 +22,7 @@ pub fn use_language() -> Option<ReadSignal<Language>> {
     })
 }
 
-/// Hook to get current locale text
+/// 获取当前本地化文本
 pub fn use_locale_text() -> Option<ReadSignal<LocaleText>> {
     use_locale_config().map(|ctx| {
         let config = ctx.get();

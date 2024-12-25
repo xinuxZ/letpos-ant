@@ -1,6 +1,6 @@
 use ant_leptos::components::{
     config_provider::{ConfigProvider, ThemeMode},
-    locale::LocaleProvider,
+    locale::{Language, LocaleProvider},
     style::{Style, StyleManager},
     theme::Theme,
     version::VERSION,
@@ -14,6 +14,8 @@ fn App() -> impl IntoView {
 
     // 创建主题状态
     let (theme_mode, set_theme_mode) = create_signal(ThemeMode::Light);
+    // 创建语言状态
+    let (language, set_language) = create_signal(Language::ZhCN);
 
     // 切换主题的处理函数
     let toggle_theme = move |_| {
@@ -26,11 +28,21 @@ fn App() -> impl IntoView {
         });
     };
 
+    // 切换语言的处理函数
+    let toggle_language = move |_| {
+        set_language.update(|lang| {
+            *lang = match lang {
+                Language::ZhCN => Language::EnUS,
+                Language::EnUS => Language::ZhCN,
+            }
+        });
+    };
+
     view! {
         // 配置提供器
         <ConfigProvider>
             // 国际化配置
-            <LocaleProvider>
+            <LocaleProvider current_language=language>
                 // 主题配置
                 <Theme theme_mode=theme_mode>
                     <div class="demo-container">
@@ -62,7 +74,21 @@ fn App() -> impl IntoView {
                         // 国际化演示
                         <div>
                             <h2>"Locale Demo"</h2>
-                            <p>"Current language: English"</p>
+                            <div class="button-group">
+                                <p>"Current language: " {move || match language.get() {
+                                    Language::ZhCN => "中文",
+                                    Language::EnUS => "English",
+                                }}</p>
+                                <button
+                                    class="ant-btn"
+                                    on:click=toggle_language
+                                >
+                                    "Switch to " {move || match language.get() {
+                                        Language::ZhCN => "English",
+                                        Language::EnUS => "中文",
+                                    }}
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </Theme>

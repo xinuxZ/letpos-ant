@@ -1,37 +1,38 @@
+//! 本地化相关的类型定义
+
 use leptos::prelude::*;
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
 
-/// Supported languages
+/// 支持的语言类型
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]
 pub enum Language {
-    /// Chinese (Simplified)
+    /// 中文（简体）
     ZhCN,
-    /// English (US)
+    /// 英文（美国）
     EnUS,
 }
 
-/// Localized text content
+/// 本地化文本内容
 #[derive(Clone, Debug, PartialEq)]
 pub struct LocaleText {
-    /// Current locale code
+    /// 当前语言代码
     pub locale: String,
-    /// Default placeholder text
+    /// 默认占位符文本
     pub placeholder: String,
-    /// Select component placeholder
+    /// Select 组件占位符
     pub select_placeholder: String,
 
-    /// Modal dialog texts
+    /// 模态框文本
     pub modal: ModalLocaleText,
-    /// Popconfirm component texts
+    /// Popconfirm 组件文本
     pub popconfirm: PopconfirmLocaleText,
-    /// Form component texts
+    /// 表单组件文本
     pub form: FormLocaleText,
-    /// Table component texts
+    /// 表格组件文本
     pub table: TableLocaleText,
-    /// Upload component texts
+    /// 上传组件文本
     pub upload: UploadLocaleText,
-    /// Empty state texts
+    /// 空状态文本
     pub empty: EmptyLocaleText,
 }
 
@@ -71,75 +72,75 @@ impl Default for LocaleText {
     }
 }
 
-/// Modal dialog localized texts
+/// 模态框本地化文本
 #[derive(Clone, Debug, PartialEq)]
 pub struct ModalLocaleText {
-    /// OK button text
+    /// 确认按钮文本
     pub ok_text: String,
-    /// Cancel button text
+    /// 取消按钮文本
     pub cancel_text: String,
-    /// Just OK button text
+    /// 仅确认按钮文本
     pub just_ok_text: String,
 }
 
-/// Popconfirm component localized texts
+/// Popconfirm 组件本地化文本
 #[derive(Clone, Debug, PartialEq)]
 pub struct PopconfirmLocaleText {
-    /// OK button text
+    /// 确认按钮文本
     pub ok: String,
-    /// Cancel button text
+    /// 取消按钮文本
     pub cancel: String,
-    /// Yes button text
+    /// 是按钮文本
     pub yes: String,
-    /// No button text
+    /// 否按钮文本
     pub no: String,
 }
 
-/// Form component localized texts
+/// 表单组件本地化文本
 #[derive(Clone, Debug, PartialEq)]
 pub struct FormLocaleText {
-    /// Optional field text
+    /// 可选字段文本
     pub optional: String,
-    /// Required field text
+    /// 必填字段文本
     pub required: String,
 }
 
-/// Table component localized texts
+/// 表格组件本地化文本
 #[derive(Clone, Debug, PartialEq)]
 pub struct TableLocaleText {
-    /// Filter menu title
+    /// 筛选菜单标题
     pub filter_title: String,
-    /// Empty data text
+    /// 空数据文本
     pub empty_text: String,
 }
 
-/// Upload component localized texts
+/// 上传组件本地化文本
 #[derive(Clone, Debug, PartialEq)]
 pub struct UploadLocaleText {
-    /// Upload button text
+    /// 上传按钮文本
     pub upload_text: String,
-    /// Remove file text
+    /// 移除文件文本
     pub remove_text: String,
 }
 
-/// Empty state localized texts
+/// 空状态本地化文本
 #[derive(Clone, Debug, PartialEq)]
 pub struct EmptyLocaleText {
-    /// Empty state description
+    /// 空状态描述
     pub description: String,
 }
 
-/// RTL configuration
+/// RTL 配置
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct RTLConfig {
-    /// Whether RTL is enabled
+    /// 是否启用 RTL
     pub enabled: bool,
 }
 
-/// Number format configuration
+/// 数字格式化配置
 #[derive(Clone, Debug, PartialEq)]
 pub struct NumberFormatConfig {
-    /// Currency symbol
+    /// 货币符号
     pub currency_symbol: String,
 }
 
@@ -151,16 +152,16 @@ impl Default for NumberFormatConfig {
     }
 }
 
-/// Locale configuration
+/// 本地化配置
 #[derive(Clone, Debug, PartialEq)]
 pub struct LocaleConfig {
-    /// Current language
+    /// 当前语言
     pub language: Language,
-    /// Number format settings
+    /// 数字格式化设置
     pub number_format: NumberFormatConfig,
-    /// Custom locale texts
+    /// 自定义本地化文本
     pub texts: Option<LocaleText>,
-    /// RTL support configuration
+    /// RTL 支持配置
     pub rtl: RTLConfig,
 }
 
@@ -175,5 +176,5 @@ impl Default for LocaleConfig {
     }
 }
 
-/// Locale context type for configuration
+/// 本地化上下文类型
 pub type LocaleContext = RwSignal<LocaleConfig>;

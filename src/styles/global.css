@@ -56,6 +56,12 @@
     border-color: var(--ant-primary-hover);
 }
 
+.ant-btn:hover,
+.ant-btn:focus {
+    color: var(--ant-primary-color);
+    border-color: var(--ant-primary-color);
+}
+
 /* 布局样式 */
 .demo-container {
     padding: 24px;
@@ -65,6 +71,14 @@
 
 .button-group {
     margin: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-group p {
+    margin: 0;
+    min-width: 150px;
 }
 
 h1,
