@@ -1,0 +1,10 @@
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/libtyped_builder_macro-85d2026d3e1a65f9.dylib: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/builder_attr.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/field_info.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/mutator.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/struct_info.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/util.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/typed_builder_macro-85d2026d3e1a65f9.d: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/builder_attr.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/field_info.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/mutator.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/struct_info.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/util.rs
+
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/lib.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/builder_attr.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/field_info.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/mutator.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/struct_info.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/typed-builder-macro-0.20.0/src/util.rs:

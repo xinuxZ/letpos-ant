@@ -1,0 +1,10 @@
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/libquote_use_macros-3e4139119eba8d80.dylib: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/use_parser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/core.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/std.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/2021.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/quote_use_macros-3e4139119eba8d80.d: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/use_parser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/core.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/std.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/2021.rs
+
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/lib.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/use_parser.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/core.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/std.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-use-macros-0.8.4/src/prelude/2021.rs:

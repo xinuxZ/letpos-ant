@@ -1,0 +1,12 @@
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/wasm32-unknown-unknown/debug/deps/libserde_qs-f271b23ccedb6499.rmeta: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/mod.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/parse.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/error.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/ser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/utils.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/wasm32-unknown-unknown/debug/deps/libserde_qs-f271b23ccedb6499.rlib: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/mod.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/parse.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/error.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/ser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/utils.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/wasm32-unknown-unknown/debug/deps/serde_qs-f271b23ccedb6499.d: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/mod.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/parse.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/error.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/ser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/utils.rs
+
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/lib.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/mod.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/de/parse.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/error.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/ser.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/serde_qs-0.13.0/src/utils.rs:

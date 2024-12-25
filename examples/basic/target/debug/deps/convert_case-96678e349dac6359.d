@@ -1,0 +1,11 @@
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/libconvert_case-96678e349dac6359.rmeta: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/case.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/converter.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/pattern.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/segmentation.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/libconvert_case-96678e349dac6359.rlib: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/case.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/converter.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/pattern.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/segmentation.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/debug/deps/convert_case-96678e349dac6359.d: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/case.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/converter.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/pattern.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/segmentation.rs
+
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/lib.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/case.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/converter.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/pattern.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/convert_case-0.6.0/src/segmentation.rs:

@@ -1,4 +1,4 @@
-use leptos::*;
+use leptos::prelude::*;
 use web_sys::{Document, Element, Window};
 
 /// Returns the global window object

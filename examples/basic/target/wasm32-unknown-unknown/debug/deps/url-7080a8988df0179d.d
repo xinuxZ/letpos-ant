@@ -1,0 +1,13 @@
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/wasm32-unknown-unknown/debug/deps/liburl-7080a8988df0179d.rmeta: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/host.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/origin.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/parser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/path_segments.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/slicing.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/quirks.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/wasm32-unknown-unknown/debug/deps/liburl-7080a8988df0179d.rlib: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/host.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/origin.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/parser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/path_segments.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/slicing.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/quirks.rs
+
+/Users/zxl/Sites/cursor/cursor-demo-leptos-ant-v3/examples/basic/target/wasm32-unknown-unknown/debug/deps/url-7080a8988df0179d.d: /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/lib.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/host.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/origin.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/parser.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/path_segments.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/slicing.rs /Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/quirks.rs
+
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/lib.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/host.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/origin.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/parser.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/path_segments.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/slicing.rs:
+/Users/zxl/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/url-2.5.4/src/quirks.rs:
