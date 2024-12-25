@@ -2,7 +2,16 @@
 
 English | [简体中文](./README.md)
 
+> 🦀 Rust UI component library based on Leptos, following Ant Design specifications
+
+[![Crates.io](https://img.shields.io/crates/v/ant-leptos.svg)](https://crates.io/crates/ant-leptos)
+[![Documentation](https://docs.rs/ant-leptos/badge.svg)](https://docs.rs/ant-leptos)
+[![License](https://img.shields.io/crates/l/ant-leptos.svg)](LICENSE)
+[![Rust](https://github.com/ant-leptos/ant-leptos/workflows/CI/badge.svg)](https://github.com/ant-leptos/ant-leptos/actions)
+
 Ant Leptos is a Rust UI component library based on the [Leptos](https://leptos.dev/) framework, providing a complete set of enterprise-level UI components following [Ant Design](https://ant.design/) specifications.
+
+[Live Demo](https://ant-leptos.github.io) | [Documentation](https://ant-leptos.github.io/docs) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md)
 
 ## ✨ Features
 
@@ -78,7 +87,7 @@ Then visit `http://localhost:8080` in your browser.
 
 ```
 ant-leptos/
-├── src/
+��── src/
 │   ├── components/     # Component implementations
 │   ├── styles/        # Component styles
 │   └── utils/         # Utility functions

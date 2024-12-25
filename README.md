@@ -2,7 +2,16 @@
 
 [English](./README_en.md) | 简体中文
 
+> 🦀 基于 Leptos 的 Rust UI 组件库，设计风格遵循 Ant Design 规范
+
+[![Crates.io](https://img.shields.io/crates/v/ant-leptos.svg)](https://crates.io/crates/ant-leptos)
+[![Documentation](https://docs.rs/ant-leptos/badge.svg)](https://docs.rs/ant-leptos)
+[![License](https://img.shields.io/crates/l/ant-leptos.svg)](LICENSE)
+[![Rust](https://github.com/ant-leptos/ant-leptos/workflows/CI/badge.svg)](https://github.com/ant-leptos/ant-leptos/actions)
+
 Ant Leptos 是一个基于 [Leptos](https://leptos.dev/) 框架的 Rust UI 组件库，提供了一套完整的企业级 UI 组件，设计风格遵循 [Ant Design](https://ant.design/) 规范。
+
+[在线演示](https://ant-leptos.github.io) | [组件文档](https://ant-leptos.github.io/docs) | [更新日志](./CHANGELOG.md) | [贡献指南](./CONTRIBUTING.md)
 
 ## ✨ 特性
 
